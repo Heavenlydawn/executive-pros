@@ -13,9 +13,9 @@ const Header = () => {
       </div>
 
       <div className="flex items-center gap-8 font-semibold text-lg">
-        <Link href="/onboarding">Onboarding</Link>
+        <Link href="https://executivepros.co/about">Onboarding</Link>
         <Link href="/teams">Teams</Link>
-        <Link href="/support">Support</Link>
+        <Link href="https://executivepros.co/contact">Support</Link>
       </div>
 
       <div>

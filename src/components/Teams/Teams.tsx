@@ -1,12 +1,16 @@
-import React from 'react'
-import Header from '../Header/Header'
+import React from "react";
+import Header from "../Header/Header";
+import Team from "./TeamsHero"
+import Footer from "../Footer/Footer";
 
 const Teams = () => {
   return (
     <div>
-<Header />
+      <Header />
+      <Team />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Teams
+export default Teams;

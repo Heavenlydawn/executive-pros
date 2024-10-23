@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Icon from "../../../public/heroLogo-I8E4tecF.svg";
 import Button__Dark from "../Buttons/Button";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -23,7 +24,9 @@ const Hero = () => {
           Let us achieve greatness—together!
         </span>
       </p>
-      <Button__Dark text="Start now" />
+      <Link href="https://executivepros.co/contact">
+        <Button__Dark text="Start now" />
+      </Link>
     </div>
   );
 };
